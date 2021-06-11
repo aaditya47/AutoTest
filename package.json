@@ -2,12 +2,24 @@
   "name": "autotest",
   "displayName": "AutoTest",
   "description": "An extension that automatically generates test cases for your routes!",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "author": {
+    "name": "Aaditya",
+    "email": "uaaditya759@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaditya47/AutoTest"
+  },
   "engines": {
     "vscode": "^1.57.0"
   },
   "categories": [
-    "Other"
+    "Programming Languages"
+  ],
+  "keywords": [
+    "test-case",
+    "unit-test"
   ],
   "activationEvents": [
     "onCommand:autotest.helloWorld"
